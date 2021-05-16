@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css" />
+  </head>
+  <body>
+    <div class="calc">
+      <section class="screen">0</section>
+      <section class="calc-buttons">
+        <!-- .calc-button-row*5>button.calc-button*5 yazarak 13-41 arasındaki satırları hızlıca yaptık -->
+        <!-- ">" 'dan sonra yazdıklarım >'dan öncekinin içine girecek . mesela calc-button'lar , calc-row'un içindedir.-->
+        <div class="calc-button-row">
+          <button class="calc-button double">C</button>
+          <!-- buradaki double, 2 düğmelik/butonluk yer tutacak demek . son calc-row'dali triple olanda 3 butonluk olacak demek.-->
+          <button class="calc-button">←</button>
+          <button class="calc-button">÷</button>
+        </div>
+        <div class="calc-button-row">
+          <button class="calc-button">7</button>
+          <button class="calc-button">8</button>
+          <button class="calc-button">9</button>
+          <button class="calc-button">×</button>
+        </div>
+        <div class="calc-button-row">
+          <button class="calc-button">4</button>
+          <button class="calc-button">5</button>
+          <button class="calc-button">6</button>
+          <button class="calc-button">-</button>
+        </div>
+        <div class="calc-button-row">
+          <button class="calc-button">1</button>
+          <button class="calc-button">2</button>
+          <button class="calc-button">3</button>
+          <button class="calc-button">+</button>
+        </div>
+        <div class="calc-button-row">
+          <button class="calc-button triple">0</button>
+          <button class="calc-button">=</button>
+        </div>
+      </section>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>
